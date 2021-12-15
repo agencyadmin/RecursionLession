@@ -13,11 +13,11 @@ class Programm
 
         var deep = int.Parse(Console.ReadLine());
 
-        for (int i = 0; i < deep; i++)
-        {
-            Echo(str);
-        }
-
+        /*for (int i = 0; i < deep; i++)
+        {*/
+            Echo(str, deep);
+     // }
+        
 
         static void Echo(string saidworld, int deep)
         {
