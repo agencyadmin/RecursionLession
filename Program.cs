@@ -32,6 +32,7 @@ class Programm
             }
             int bcolor = random.Next(14);
             Console.ForegroundColor = list[bcolor];
+            Console.BackgroundColor = (ConsoleColor)deep;
             Console.WriteLine("..." + modif);
             if (deep > 1)
             {
